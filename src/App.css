@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
 .App {
   text-align: center;
 }
@@ -19,4 +21,10 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.magic {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 2em;
+  line-height: 0.8em;
 }

@@ -10,7 +10,7 @@ class App extends React.Component {
         super(props);
         this.state = {
             currentPage: 'main',
-            question: null
+            question: null,
         };
 
         this.changeCurrentPage = this.changeCurrentPage.bind(this);
@@ -100,13 +100,6 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        // session.query("man(donald_trump).");
-        // console.log('jim ');
-        // session.answers(x => console.log(x));
-
-        // session.query( "item(id(ItemID), name(bread)), stock(item(ItemID), shop(ShopID), _, price(Price)), shop(id(ShopID), name(Shop), _)." );
-        // session.answers( x => console.log( window.pl.format_answer(x) ) );
-
         this.state.session.query("get_questions(Q).");
         this.state.session.answers(this.showQuestion());
     }
@@ -180,7 +173,7 @@ class App extends React.Component {
                                                     No
                                                 </Button>
                                                 <Button warning as="label" onClick={() => this.doAnswer('idk')}>
-                                                    I Don't Know
+                                                    Don't Know
                                                 </Button>
                                                 <Button success as="label" onClick={() => this.doAnswer('yes')}>
                                                     Yes

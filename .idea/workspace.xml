@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39441a02-cd7e-4550-9bea-85b8561969f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/music/zapsplat_sound_design_magical_rising_twinkling_nostalgic_003_40068.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,7 @@
       <updated>1573950543280</updated>
       <workItem from="1573950545502" duration="248000" />
       <workItem from="1573951408164" duration="9255000" />
-      <workItem from="1574014041213" duration="1987000" />
+      <workItem from="1574014041213" duration="2591000" />
     </task>
     <task id="LOCAL-00001" summary="added wizards lotties and fixed some code">
       <created>1573996885479</created>
@@ -103,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573996885479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed unnecessary styles">
+      <created>1574016294177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574016294177</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed a music folder">
+      <created>1574016313182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574016313182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added wizards lotties and fixed some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added wizards lotties and fixed some code" />
+    <MESSAGE value="removed unnecessary styles" />
+    <MESSAGE value="removed a music folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed a music folder" />
   </component>
 </project>
